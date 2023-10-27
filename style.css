@@ -134,7 +134,7 @@ nav a {
     border-color: silver;
 
     /*que tan separados quiero los cuadros de todo */
-    margin: 7rem 5rem 10rem 5rem;
+    margin: 7rem 9rem 10rem 9rem;
 
     /*que tan separado quiero el contenido de los cuadros de sus bordes */
     padding: 1rem;
@@ -147,7 +147,7 @@ nav a {
 }
 
 /* separo los sexos */
-#entrada2, #entrada5,#resultado1,#resultado2{
+#entrada2, #entrada5,#resultado1,#resultado2, #relleno2, #relleno4{
     margin-right: 1.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
