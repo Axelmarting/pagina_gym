@@ -32,11 +32,12 @@
             <h3>Calcule sus calorias diarias:</h3>
             <p>Ingrese su peso corporal: </p>
             <div>
-                <input type="text" id="entrada1" placeholder="Escriba aca su peso..." /><br>
+                <input type="text" id="peso1" placeholder="Escriba aca su peso..." /><br>
+                <input type="text" id="altura1" placeholder="Escriba aca su altura..." /><br>
                 <label for="entrada2">Femenino:</label>
-                <input type="radio" name="gender" id="entrada2" value="f">
+                <input type="radio" name="gender" id="femenino1" value="f">
                 <label for="entrada3">Masculino:</label>
-                <input type="radio" name="gender" id="entrada3" value="m"><br>
+                <input type="radio" name="gender" id="masculino1" value="m"><br>
                 <input type="button" value="Resultado" onclick="mostrarResultadoCalorias()" /><br>
                 <input type="text" id="resultado1" placeholder="El resultado es..." readonly />
             </form>
@@ -46,11 +47,12 @@
             <h3>Calcule su peso ideal:</h3>
             <p>Ingrese su peso corporal: </p>
             <div>
-                <input type="text" id="entrada4" placeholder="Escriba aca su peso..." /><br>
+                <input type="text" id="peso2" placeholder="Escriba aca su peso..." /><br>
+                <input type="text" id="altura2" placeholder="Escriba aca su altura..." /><br>
                 <label for="entrada5">Femenino:</label>
-                <input type="radio" name="gender" id="entrada5" value="f">
+                <input type="radio" name="gender" id="femenino2" value="f">
                 <label for="entrada6">Masculino:</label>
-                <input type="radio" name="gender" id="entrada6" value="m">
+                <input type="radio" name="gender" id="masculino2" value="m">
                 <br>
                 <input type="button" value="Resultado" onclick="mostrarResultadoPeso()" /><br>
                 <input type="text" id="resultado2" placeholder="El resultado es..." readonly />
@@ -61,13 +63,14 @@
             <h3>Cuadro de relleno:</h3>
             <p>Lorem ipsum dolor sit amet.</p>
             <div>
-                <input type="text" id="relleno1" placeholder="Escriba aca su peso..." /><br>
+                <input type="text" id="relleno" placeholder="NO FUNCIONA" /><br>
+                <input type="text" id="relleno1" placeholder="NO FUNCIONA" /><br>
                 <label for="entrada2">Femenino:</label>
                 <input type="radio" name="gender" id="relleno2" value="f">
                 <label for="entrada3">Masculino:</label>
                 <input type="radio" name="gender" id="relleno3" value="m"><br>
                 <input type="button" value="Resultado" onclick="mostrarResultado()" /><br>
-                <input type="text" id="relleno4" placeholder="El resultado es..." readonly />
+                <input type="text" id="relleno4" placeholder="NO FUNCIONA" readonly />
             </form>
             </div>
         </article>
