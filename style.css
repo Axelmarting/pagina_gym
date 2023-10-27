@@ -147,6 +147,8 @@ nav a {
 }
 
 /* separo los sexos */
-#entrada2, #entrada5{
+#entrada2, #entrada5,#resultado1,#resultado2{
     margin-right: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
