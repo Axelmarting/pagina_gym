@@ -142,8 +142,11 @@ nav a {
 }
 
 .cuadros input{
-    /* separando el contenido de los cuadros de texto y botones de sus bordes */
-    margin: 0.5rem;
+    /* separando el contenido de los botones de sus bordes */
     padding: 0.5rem;
 }
 
+/* separo los sexos */
+#entrada2, #entrada5{
+    margin-right: 1.5rem;
+}

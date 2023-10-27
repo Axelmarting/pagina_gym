@@ -33,7 +33,9 @@
             <p>Ingrese su peso corporal: </p>
             <div>
                 <input type="text" id="entrada1" placeholder="Escriba aca su peso..." /><br>
+                <label for="entrada2">Femenino:</label>
                 <input type="radio" name="gender" id="entrada2" value="f">
+                <label for="entrada3">Masculino:</label>
                 <input type="radio" name="gender" id="entrada3" value="m"><br>
                 <input type="button" value="Resultado" onclick="mostrarResultado()" /><br>
                 <input type="text" id="resultado" placeholder="El resultado es..." readonly />
@@ -42,11 +44,14 @@
         </article>
         <article class="cuadros">
             <h3>Calcule su peso ideal:</h3>
-            <p>Ingrese su altura:</p>
+            <p>Ingrese su peso corporal: </p>
             <div>
-                <input type="text" id="entrada1" placeholder="Escriba aca su altura..." /><br>
-                <input type="radio" name="gender" id="entrada2" value="f">
-                <input type="radio" name="gender" id="entrada3" value="m"><br>
+                <input type="text" id="entrada4" placeholder="Escriba aca su peso..." /><br>
+                <label for="entrada5">Femenino:</label>
+                <input type="radio" name="gender" id="entrada5" value="f">
+                <label for="entrada6">Masculino:</label>
+                <input type="radio" name="gender" id="entrada6" value="m">
+                <br>
                 <input type="button" value="Resultado" onclick="mostrarResultado()" /><br>
                 <input type="text" id="resultado" placeholder="El resultado es..." readonly />
             </form>
