@@ -126,7 +126,13 @@ nav a {
     margin-bottom: 1rem;
 }
 
-#calorias {
-    margin: 15rem;
+#calorias{
     border-style: double;
+    border-color: silver;
+    margin: 2rem 88rem 2rem 5rem;
+    padding: 1rem;
+}
+
+#calorias input{
+    margin: 1rem;
 }
