@@ -28,11 +28,25 @@
     </nav>
     <hr>
     <section>
-        <article id="calorias">
+        <article class="cuadros">
             <h3>Calcule sus calorias diarias:</h3>
             <p>Ingrese su peso corporal: </p>
             <div>
                 <input type="text" id="entrada1" placeholder="Escriba aca su peso..." /><br>
+                <input type="radio" name="gender" id="entrada2" value="f">
+                <input type="radio" name="gender" id="entrada3" value="m"><br>
+                <input type="button" value="Resultado" onclick="mostrarResultado()" /><br>
+                <input type="text" id="resultado" placeholder="El resultado es..." readonly />
+            </form>
+            </div>
+        </article>
+        <article class="cuadros">
+            <h3>Calcule su peso ideal:</h3>
+            <p>Ingrese su altura:</p>
+            <div>
+                <input type="text" id="entrada1" placeholder="Escriba aca su altura..." /><br>
+                <input type="radio" name="gender" id="entrada2" value="f">
+                <input type="radio" name="gender" id="entrada3" value="m"><br>
                 <input type="button" value="Resultado" onclick="mostrarResultado()" /><br>
                 <input type="text" id="resultado" placeholder="El resultado es..." readonly />
             </form>

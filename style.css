@@ -126,13 +126,24 @@ nav a {
     margin-bottom: 1rem;
 }
 
-#calorias{
+.cuadros{
+    display: inline-flex;
+    flex-direction: column;
+
     border-style: double;
     border-color: silver;
-    margin: 2rem 88rem 2rem 5rem;
+
+    /*que tan separados quiero los cuadros de todo */
+    margin: 7rem 5rem 10rem 5rem;
+
+    /*que tan separado quiero el contenido de los cuadros de sus bordes */
     padding: 1rem;
+    padding-right: 2rem;
 }
 
-#calorias input{
-    margin: 1rem;
+.cuadros input{
+    /* separando el contenido de los cuadros de texto y botones de sus bordes */
+    margin: 0.5rem;
+    padding: 0.5rem;
 }
+
