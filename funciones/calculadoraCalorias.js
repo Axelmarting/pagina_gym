@@ -57,36 +57,12 @@ function validaciones(num1,num2,num3){
 }
 
 function calculandoCalorias(sexo,n1,n2,n3){
+    let operacion;
     if(sexo == "m"){
-        calculoCalorias = 88.362 + (13.397*n1) + (4.799*n2) - (5.677*n3);
+        operacion = 88.362 + (13.397*n1) + (4.799*n2) - (5.677*n3);
     }
     else{
-        calculoCalorias = 447.593 + (9.247*n1) + (3.098*n2) - (4.330*n3);
+        operacion = 447.593 + (9.247*n1) + (3.098*n2) - (4.330*n3);
     }
-    return calculoCalorias;
-}
-
-function mostrarResultadoPeso() {
-    let pesoIngresado;
-    let alturaIngresada;
-    let aniosIngresados;
-    let masculoChequeado;
-    let femeninoChequeado;
-    let sexo;
-
-    pesoIngresado = parseFloat(document.getElementById("peso2").value);
-    alturaIngresada = parseFloat(document.getElementById("altura2").value);
-    aniosIngresados = parseFloat(document.getElementById("anios1").value);
-
-    femeninoChequeado = document.getElementById("femenino2");
-    masculoChequeado = document.getElementById("masculino2");
-
-    if (femeninoChequeado.checked) {
-        sexo = "f";
-    } else if (masculoChequeado.checked) {
-        sexo = "m";
-    } else {
-        alert("Por favor, seleccione un sexo.");
-    }
-
+    return operacion;
 }
